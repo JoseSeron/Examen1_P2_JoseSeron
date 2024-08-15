@@ -20,7 +20,7 @@ public class Cuadrado extends Figura {
 
     @Override
     public String toString() {
-        return "Cuadrado{" + "lado=" + lado + '}';
+        return "Cuadrado (L="+lado+")";
     }
     
     
