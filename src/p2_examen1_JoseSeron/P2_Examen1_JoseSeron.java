@@ -66,7 +66,12 @@ public class P2_Examen1_JoseSeron {
             case 3 ->
                 listarFiguras();
             case 4 -> {
-                //NOTA: Reemplace su respuesta aqui
+                System.out.println("La caracteristica se llama poliformismo.Funciona en \n"
+                        + "conjunto con la la herencia. \n"
+                        + "se implementa una clase padre abstracta\n"
+                        + "en la que se especifican los metodos que \n"
+                        + "todos los hijos compartiran, aunque todos \n"
+                        + "tengan el mismo nombre, ejecutan acciones diferentes");
             }
             case 5 -> {
                 System.out.println("\nSaliendo del programa....");

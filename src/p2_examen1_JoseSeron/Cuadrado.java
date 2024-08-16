@@ -1,4 +1,3 @@
-
 package p2_examen1_JoseSeron;
 
 /**
@@ -20,8 +19,7 @@ public class Cuadrado extends Figura {
 
     @Override
     public String toString() {
-        return "Cuadrado (L="+lado+")";
+        return "Cuadrado (L=" + lado + ")";
     }
-    
-    
+
 }

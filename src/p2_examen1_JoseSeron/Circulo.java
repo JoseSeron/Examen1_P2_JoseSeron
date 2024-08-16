@@ -1,11 +1,11 @@
-
 package p2_examen1_JoseSeron;
 
 /**
  *
  * @author joser
  */
-public class Circulo extends Figura{
+public class Circulo extends Figura {
+
     double radio;
 
     public Circulo(double radio) {
@@ -14,13 +14,12 @@ public class Circulo extends Figura{
 
     @Override
     double calcularArea() {
-        return 3.1216*(radio*radio);
+        return 3.1216 * (radio * radio);
     }
 
     @Override
     public String toString() {
-        return "Circulo (R="+radio+")";
+        return "Circulo (R=" + radio + ")";
     }
-    
-    
+
 }

@@ -1,4 +1,3 @@
-
 package p2_examen1_JoseSeron;
 
 import java.util.ArrayList;
@@ -8,12 +7,13 @@ import java.util.ArrayList;
  * @author claudiacortes
  */
 public class FiguraCompuesta extends Figura {
+
     private ArrayList<Figura> figuras = new ArrayList<>();
 
-    void agregarFigura(Figura nuevaFigura){
-    figuras.add(nuevaFigura);
+    void agregarFigura(Figura nuevaFigura) {
+        figuras.add(nuevaFigura);
     }
-    
+
     @Override
     double calcularArea() {
         double areaTotal = 0;
@@ -25,15 +25,13 @@ public class FiguraCompuesta extends Figura {
 
     @Override
     public String toString() {
-        String lista="Figura Compuesta:\n";
+        String lista = "Figura Compuesta:\n";
         for (Figura figura : figuras) {
-            lista.concat("   ->");
-            lista.concat(figura.toString());
-            lista.concat("\n");
+            lista = lista.concat("   ->");
+            lista = lista.concat(figura.toString());
+            lista = lista.concat("\n");
         }
         return lista;
     }
-    
-    
 
 }
